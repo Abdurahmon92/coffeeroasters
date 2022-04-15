@@ -78,7 +78,7 @@ body {
 /* contayner styles */
 .contayner {
   width: 100%;
-  max-width: 1040px;
+  max-width: 1440px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -108,6 +108,62 @@ body {
 /* global styles end*/
 
 
+/* SHEADER STYLES */
+.header-and-hero-wraper {
+  background-image: url("./img/header-and-hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.site-header {
+  padding: 40px 0px;
+
+  
+}
+
+.site-header-container {
+ padding: 0px 50px 0px 50px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.site-logo-link {
+
+}
+.site-logo-img {
+    width: 235px;
+    height: 24px;
+    display: block;
+    object-fit: contain;
+}
+.site-nav-list {
+  display: flex;
+  align-items: center;
+
+  
+
+}
+.site-nav-list-item {
+   
+}
+
+.site-nav-list-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.item-link {
+   font-weight: 700;
+   font-family: 'Roboto', Arial, sans-serif;
+   font-size: 12px;
+   line-height: 14px;
+   letter-spacing: 1px;
+   color: var(--text-color);
+   
+}
+
+/* SHEADER STYLES END */
+
 
 
 /* reatina image styles */
@@ -115,13 +171,11 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
-  .hero {
-    background-image: url("./img/aple-wotch-clock@2x.jpg");
-  }
-
-  .site-botom {
-    background-image: url('./img/section-bottom-bg-img@2x.png');
+  .header-and-hero-wraper {
+    background-image: url("./img/header-and-hero-bg@2x.png");
   }
 }
+
+
 
 /* reatina image styles end */

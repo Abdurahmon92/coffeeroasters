@@ -79,8 +79,6 @@ body {
 .contayner {
   width: 100%;
   max-width: 1440px;
-  padding-left: 20px;
-  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -172,9 +170,12 @@ body {
 }
 .site-hero-content {
   padding-top: 115px;
-  padding-left: 150px;
+  padding-left: 100px;
+  padding-right: 116px;
 }
 .contetn-title {
+  width: 447px;
+
   font-weight: 700;
   font-size: 64px;
   line-height: 75px;

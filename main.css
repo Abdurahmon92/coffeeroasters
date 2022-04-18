@@ -312,6 +312,64 @@ body {
 
 }
 
+/* SECTION WOIS CHOIS STYLE  */
+.wois-choes {}
+
+.wois-choes-inner {
+  background-image: url("./img/wois-choes-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  padding: 50px 30px 80px 30px;
+}
+
+.wois-choes-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 58.59px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.wois-choes-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  width: 581px;
+  padding: 0px 15px 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 80%;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+}
+
+.wois-choes-list {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.wois-choes-list-item {
+   
+}
+
+.wois-choes-list-item-img {
+  width: 433px;
+  height: 500px;
+}
+
+.wois-choes-list-item-title {
+
+}
+
+.wois-choes-list-item-text {
+
+}
+
+/* SECTION WOIS CHOIS STYLE END  */
+
 /* SECTION MAIN STYLES END*/
 
 /* reatina image styles */
@@ -325,6 +383,10 @@ only screen and (min-resolution: 2dppx) {
 
   .our-collection-inner {
     background-image: url("./img/our-collection-bg@2x.png");
+  }
+
+  .wois-choes {
+    background-image: url("./img/wois-choes-bg@2x.png");
   }
 }
 

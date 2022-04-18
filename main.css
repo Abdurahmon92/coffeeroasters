@@ -463,7 +463,60 @@ body {
  }
 
 /* section it works  end */
+/* section footer */
 
+.footer {
+  background-image: url("./img/footer-bg-img.png");
+  background-repeat: no-repeat;
+  background-size: 100% 160px;
+  display: flex;
+  width: 100%;
+  padding: 65px 50px;
+}
+
+.footer-logo-link {
+  margin-right: 246px;
+}
+.footer-logo-img {
+  display: flex;
+}
+
+.footer-nav-list {
+  display: flex;
+}
+
+.footer-nav-list-item {
+  
+}
+
+.footer-nav-list-item:not(:last-child) {
+  margin-right: 40px;
+}
+.footer-nav-list-item-link {
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 18.75px;
+ letter-spacing: 1px;
+ color: var(--text-color);
+}
+
+.social-icon-list {
+ display: flex;
+ margin-left: auto;
+}
+.social-icon-list-item {
+
+}
+
+.social-icon-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.social-icon-list-item-link {
+
+}
+
+.social-icon-list-item-link img {}
+/* section footer */
 /* SECTION MAIN STYLES END*/
 
 /* reatina image styles */
@@ -485,6 +538,11 @@ only screen and (min-resolution: 2dppx) {
 
   .it-works-inner {
     background-image: url("./img/it-works-inner-bg@2x.png");
+  }
+
+  .footer {
+    background-image: url("./img/footer-bg-img@2x.png");
+  
   }
 }
 

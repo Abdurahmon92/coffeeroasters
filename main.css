@@ -351,8 +351,8 @@ body {
 }
 
 .wois-choes-list-item {
-   padding-right: 0px;
-   padding-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .wois-choes-list-item-img {
@@ -362,11 +362,11 @@ body {
 }
 
 .wois-choes-list-item-title {
- font-weight: 500;
- font-size: 30px;
- line-height: 35.16px;
- color: #333;
- margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35.16px;
+  color: #333;
+  margin-bottom: 10px;
 
 }
 
@@ -386,6 +386,84 @@ body {
 
 /* SECTION WOIS CHOIS STYLE END  */
 
+/* section it works  */
+.section-it-works {}
+
+.it-works-inner {
+  background-image: url("./img/it-works-inner-bg.png");
+  background-repeat: no-repeat;
+  padding: 50px 31px 50px 30px;
+}
+
+.itvorks-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 58.59px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 80px;
+}
+
+.it-work-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.it-work-list-item {
+  width: 433px;
+  padding: 20px 20px 40px 20px;
+  background: var(--white-bg-color);
+}
+
+.item-number {
+  text-align: right;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  color: #666262;
+}
+
+.list-item-title {
+  width: 231px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 46.88px;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.item-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-right: 8px;
+}
+
+
+
+.iworks-btn {
+ font-weight: 500px;
+ font-size: 16px;
+ line-height: 18.75px;
+ letter-spacing: 1px;
+ margin-right: 560px;
+ margin-left: 560px;
+ background-color: #C99B67;
+ border: none;
+
+}
+.it-works-right-logo {
+  width: 191.77px;
+  height: 129.03px;
+  position: absolute;
+  top: -140px;
+  right: 37px;
+ }
+
+/* section it works  end */
+
 /* SECTION MAIN STYLES END*/
 
 /* reatina image styles */
@@ -403,6 +481,10 @@ only screen and (min-resolution: 2dppx) {
 
   .wois-choes {
     background-image: url("./img/wois-choes-bg@2x.png");
+  }
+
+  .it-works-inner {
+    background-image: url("./img/it-works-inner-bg@2x.png");
   }
 }
 

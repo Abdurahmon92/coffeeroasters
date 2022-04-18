@@ -347,25 +347,41 @@ body {
 .wois-choes-list {
   display: flex;
   justify-content: space-between;
-
-
+  position: relative;
 }
 
 .wois-choes-list-item {
-   
+   padding-right: 0px;
+   padding-left: 0px;
 }
 
 .wois-choes-list-item-img {
   width: 433px;
   height: 500px;
+  margin-bottom: 28px;
 }
 
 .wois-choes-list-item-title {
+ font-weight: 500;
+ font-size: 30px;
+ line-height: 35.16px;
+ color: #333;
+ margin-bottom: 10px;
 
 }
 
 .wois-choes-list-item-text {
+  width: 377px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333;
 
+}
+
+.inner-left-bottom-logo {
+  position: absolute;
+  top: -40px;
+  left: -50px;
 }
 
 /* SECTION WOIS CHOIS STYLE END  */
